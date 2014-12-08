@@ -526,7 +526,7 @@ var valuesTests = []struct {
 				},
 			},
 		},
-		Values: []string{"Crap", "error"},
+		Values: []string{"[]ResultListResult", "error"},
 	},
 	{
 		Schema: &Schema{
@@ -545,7 +545,7 @@ var valuesTests = []struct {
 			Rel:   "result",
 			Title: "List",
 		},
-		Values: []string{"Result", "error"},
+		Values: []string{"[]Result", "error"},
 	},
 }
 
